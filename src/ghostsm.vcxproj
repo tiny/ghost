@@ -130,7 +130,7 @@
       </PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile />
-      <AdditionalIncludeDirectories>..\include\ghost</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -151,7 +151,7 @@
       </PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeaderOutputFile />
-      <AdditionalIncludeDirectories>..\include\ghost</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -166,7 +166,7 @@
     <ClCompile Include="main_ghostlib.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\ghost\ghost.h" />
+    <ClInclude Include="..\include\ghostsm\ghost.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

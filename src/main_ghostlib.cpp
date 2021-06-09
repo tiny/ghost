@@ -2,8 +2,7 @@
 //
 
 #include <stdio.h>
-#include "ghost.h"
-#include "ghost_timer.cpp"
+#include "ghostsm/ghost.h"
 
 // TODO: This is an example of a library function
 void ghost_init()

@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\ghost\ghost.h">
+    <ClInclude Include="..\include\ghostsm\ghost.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include <ghost/ghost.h>
+#include <ghostsm/ghost.h>
 
 int main()
 {
